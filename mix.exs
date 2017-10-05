@@ -20,7 +20,7 @@ defmodule ExSentry.Mixfile do
        links: %{GitHub: "https://github.com/appcues/exsentry"}
      ],
      docs: [main: ExSentry],
-     deps: deps]
+     deps: deps()]
   end
 
   # Type "mix help compile.app" for more information
